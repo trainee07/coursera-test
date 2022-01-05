@@ -11,37 +11,45 @@ h1 {
     margin-bottom: 20px;
 }
 
-.content-box {
-    width: 100%;
-    overflow: none;
-}
-
-.content-name {
-    text-align: center;
+div {
     position: relative;
-    float: right;
-    overflow: none;
-    width: 100px;
-    height: 40px;
-    padding: 5px;
-    margin-right: 36px;
-    margin-top: 0;
-    border: 5px solid black;
-    font-weight: bold;
-}
-
-.content {
-    width: 90%;
-    height: auto;
-    margin: 2.5%;
-    padding: 2%;
-    padding-top: 50px;
-    border: 5px solid black;
-    font-size: 25px;
-    color: black;
+    width: 100%;
+    margin: auto;
     background-color: #4443434d;
 }
 
+p {
+    position: relative;
+    clear: right;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    overflow: none;
+    border: 3px solid black;
+}
+
+.title {
+    width: 100px;
+    float: right;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    border: 3px solid black;
+    border-right: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: #4443434d;
+    
+}
 .title1 {
     background-color: #D59898;
 }
@@ -55,7 +63,16 @@ h1 {
     background-color: #E5D198;
 }
 
-@media (min-width: 992px){
+.content {
+    height: 300px;
+    overflow: auto;
+    margin: 0px;
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+@media (min-width: 992px){ 
     .col-lg-4{
         float: left;
         width: 33.33%;
@@ -69,24 +86,14 @@ h1 {
 
     .col-md-6 {
         width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .col-md-12 {
         width: 100%;
-        margin-left: -10px;
-    }
-
-    .title1 {
-        margin-right: 33px;
-    }
-
-    .title2 {
-        margin-right: 33px;
-    }
-
-    .title3 {
-        margin-right: 66px;
-        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -95,22 +102,4 @@ h1 {
         float: left;
         width: 100%;
     }
-
-    .content-name {
-        margin-right: 65px;
-        margin-right: 30px;
-    }
-
-    .title1 {
-        margin-right: 55px;
-    }
-
-    .title2 {
-        margin-right: 55px;
-    }
-
-    .title3 {
-        margin-right: 55px;
-        width: 100px;
-    }
-}
+} 
