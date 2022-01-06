@@ -1,91 +1,102 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: cursive, sans-serif;
+  font-family: cursive, sans-serif;
 }
 
+.navstyle {
+    background-color: #c7c6c6;
+    border: 2px solid black;
+    border-radius: 0px;
+}
 
+li {
+    text-align: center;
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
 
 h1 {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 div {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    background-color: #C7C6C6;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  background-color: #c7c6c6;
 }
 
 p {
-    position: relative;
-    clear: right;
+  position: relative;
+  clear: right;
 }
 
 section {
-    position: relative;
-    padding: 15px;
-    width: 100%;
+  position: relative;
+  padding: 15px;
+  width: 100%;
 }
 
 .box {
-    width: 100%;
-    height: auto;
-    overflow: none;
-    border: 3px solid black;
+  width: 100%;
+  height: auto;
+  overflow: none;
+  border: 3px solid black;
 }
 
 .title {
-    width: 100px;
-    text-align: center;
-    margin-left: 40%;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    
+  width: 100px;
+  text-align: center;
+  margin-left: 40%;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }
 
 .content {
-    height: 250px;
-    overflow: auto;
-    margin: 0px;
-    padding: 5px;
-    font-size: 20px;
-    color: black;
+  height: 250px;
+  overflow: auto;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
 }
 
-@media (min-width: 992px){ 
-    .col-lg-4{
-        float: left;
-        width: 33.33%;
-    }
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-    .col-md-6, .col-md-12 {
-        float: left;
-    }
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    float: left;
+  }
 
-    .col-md-6 {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .col-md-6 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .col-md-12 {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .col-md-12 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media (max-width: 767px){
-    .col-sm-12 {
-        float: left;
-        width: 100%;
-    }
-} 
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
