@@ -5,6 +5,8 @@ body {
     font-family: cursive, sans-serif;
 }
 
+
+
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -15,7 +17,7 @@ div {
     position: relative;
     width: 100%;
     margin: auto;
-    background-color: #4443434d;
+    background-color: #C7C6C6;
 }
 
 p {
@@ -38,37 +40,21 @@ section {
 
 .title {
     width: 100px;
-    float: right;
     text-align: center;
-    margin: 0px;
+    margin-left: 40%;
     padding: 5px;
-    border: 3px solid black;
-    border-right: 0px;
     font-size: 20px;
     font-weight: bold;
     color: black;
-    background-color: #4443434d;
     
-}
-.title1 {
-    background-color: #D59898;
-}
-
-.title2 {
-    background-color: #C14543;
-    color: white;
-}
-
-.title3 {
-    background-color: #E5D198;
 }
 
 .content {
-    height: 300px;
+    height: 250px;
     overflow: auto;
     margin: 0px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 
